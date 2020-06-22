@@ -1,6 +1,8 @@
-# bit-kitchen/resource-group/azurerm
+# Terraform Module "resource-group"
 
-Create a new or access an existing resource group.
+[![bit-kitchen/resource-group/azurerm](https://badgen.net/badge/icon/terraform?icon=terraform&label=bit-kitchen%2Fresource-group%2Fazurerm)](https://registry.terraform.io/modules/bit-kitchen/resource-group/azurerm)
+
+A terraform module that creates a new or accesses an existing resource group.
 
 ## Usage
 
@@ -67,6 +69,12 @@ id       | string      | The ID of the Resource Group.
 name     | string      | The Name of the Resource Group.
 location | string      | The Location of the Resource Group.
 tags     | map(string) | The Tags of the Resource Group.
+
+
+## Related docs
+
+* [Terraform Data Source: azurerm_resource_group](https://www.terraform.io/docs/providers/azurerm/r/resource_group.html)
+* [Terraform Resource: azurerm_resource_group](https://www.terraform.io/docs/providers/azurerm/d/resource_group.html)
 
 
 ## LICENSE
