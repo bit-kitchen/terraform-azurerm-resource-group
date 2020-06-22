@@ -1,5 +1,5 @@
 variable "name" {
-  description = "The Name of the Resource Group to create or search."
+  description = "The Name of the Resource Group to create or access."
   type        = string
   default     = ""
 }
