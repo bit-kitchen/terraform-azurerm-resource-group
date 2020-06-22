@@ -50,13 +50,13 @@ module "existing_resource_group" {
 
 Name     | Type        | Required <br> as a resource | Required <br> as a data source | Description
 -------- | ----------- | --------------------------- | ------------------------------ | -----------
-name     | string      | ☐ | ☑ | The Name of the Resource Group to create or access.
-location | string      | ☑ | ☒ | The Azure Region where the Resource Group exists.
-tags     | map(string) | ☐ | ☒ | A mapping of tags which should be assigned to the Resource Group.
+name     | string      | `☐` | `☑` | The Name of the Resource Group to create or access.
+location | string      | `☑` | `☒` | The Azure Region where the Resource Group exists.
+tags     | map(string) | `☐` | `☒` | A mapping of tags which should be assigned to the Resource Group.
 
-☐: Optional.  
-☑: Required to be specified.  
-☒: Required to be not specified.  
+`☐` Optional.  
+`☑` Required to be specified.  
+`☒` Required to be not specified.  
 
 
 ## Outputs
